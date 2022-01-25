@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/testbuild/build/">
+    <Router basename="/testbuild/prod/">
       <Routes>
         <Route exact path="/" element={<App/>} />
       </Routes>
